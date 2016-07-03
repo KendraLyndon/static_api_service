@@ -3,10 +3,9 @@ $(document).ready(function(){
   $.ajax({
     url: 'http://localhost:3000/active_users'
   }).done(function(data){
+    console.log(data);
     data.forEach(function(user,i){
-      if(data[i].user_data.active === 1){
         addUser(data[i].user_data);
-      }
     })
   });
 

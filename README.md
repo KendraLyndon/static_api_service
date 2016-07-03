@@ -228,6 +228,6 @@ should return
 }
 
 ```
-With that data, in the front end, show the profile page for that user. 
-* IF YOU DO THE STRETCH, THIS MEANS THAT YOU HAVE THREE ROUTES ON THE BACK END, AND THREE PAGES ON THE FRONT END * : 
-Users, Active Users, and User Profile. 
+With that data, in the front end, show the profile page for that user.
+* IF YOU DO THE STRETCH, THIS MEANS THAT YOU HAVE THREE ROUTES ON THE BACK END, AND THREE PAGES ON THE FRONT END * :
+Users, Active Users, and User Profile.

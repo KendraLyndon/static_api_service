@@ -2,8 +2,6 @@ $(document).ready(function(){
   var list = document.getElementById('users-list');
   var users = {};
 
-  $(document).on('click','.profile',postUser();
-
   $.ajax({
     url: 'http://localhost:3000/users'
   }).done(function(data){
@@ -11,7 +9,6 @@ $(document).ready(function(){
       addUser(data[i].user_data);
       users[data[i].user_data.id] = data[i].user_data;
     })
-    console.log(users);
   });
 
   function addUser(data){
@@ -36,7 +33,4 @@ $(document).ready(function(){
     $(user).append(userId, active, ycode);
   }
 
-  function postUser(profile){
-
-  }
 })
